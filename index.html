@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>
+            Home
+        </title>
+        <style>
+            .home-subtitle {
+                background-color: #f9f9f9;
+                border: 1px solid #ddd;
+                padding: 20px;
+                margin-bottom: 20px;
+                text-align: center;
+            }
+
+            .home-subtitle h1 {
+                font-size: 36px;
+                margin-bottom: 10px;
+            }
+
+            .home-subtitle p {
+                font-size: 20px;
+                margin-bottom: 0;
+            }
+        </style>
+    </head>
+<body>
+    <div class="home-subtitle">
+        <h1>Welcome to our Photography Portfolio</h1>
+        <p>
+            Photography location:Kathmandu,Nepal<br>
+            Camera:M30s,m20<br>
+            Photo type:marco,nature<br>
+            Instagram:Unwanted.xxd<br>
+            Tiktok:Unwanted_xxd<br>
+
+        </p>
+        <form action="/submit-photo" method="POST" enctype="multipart/form-data">
+            <label for="photo-input">Select a photo:</label>
+            <input type="file" id="photo-input" name="photo">
+          
+            <button type="submit">Submit Photo</button>
+          </form><br>
+          
+    
+</body>
+</html>
